@@ -73,6 +73,57 @@ button {
     display: none;
 }
 
+@media (max-width: 426px) {
+    body {
+        background: url(/media/003.jpg) center/cover;
+        width: 100%;
+    }
+
+    .light {
+        height: 50px;
+    }
+
+    .light img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .noneBlock {
+        height: 70vh;
+    }
+
+    .textBlock {
+        width: 80%;
+    }
+
+    .textBlock p {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .footer img {
+        width: 100px;
+    }
+    .iconBlock {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .icon1 {
+        display: none;
+    }
+
+    .icon3 {
+        display: none;
+    }
+
+    .icon6 {
+        display: none;
+    }
+
+
+}
+
 @media (max-width: 376px) {
     body {
         background: url(/media/003.jpg) center/cover;
