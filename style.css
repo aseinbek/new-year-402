@@ -30,11 +30,11 @@ body {
 
 .textBlock p {
     font-family: 'ALSS';
-    font-size: 30px;
+    font-size: 45px;
     color: white;
     text-align: center;
     text-shadow: 0px 0px 50px black;
-    line-height: 35px;
+    line-height: 45px;
 }
 
 .noneBlock {
@@ -73,6 +73,45 @@ button {
     display: none;
 }
 
+@media (max-width: 769px) {
+    body {
+        background: url(/media/003.jpg) center/cover;
+        width: 100%;
+    }
+
+    .light {
+        height: 50px;
+    }
+
+    .light img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .noneBlock {
+        height: 45vh;
+    }
+
+    .textBlock {
+        width: 80%;
+    }
+
+    .textBlock p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .footer img {
+        width: 100px;
+    }
+    .iconBlock {
+        width: 100%;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+
+}
+
 @media (max-width: 426px) {
     body {
         background: url(/media/003.jpg) center/cover;
@@ -97,8 +136,8 @@ button {
     }
 
     .textBlock p {
-        font-size: 22px;
-        line-height: 20px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     .footer img {
@@ -148,8 +187,8 @@ button {
     }
 
     .textBlock p {
-        font-size: 22px;
-        line-height: 20px;
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .footer img {
